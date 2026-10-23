@@ -5,6 +5,7 @@ Demo di un servizio di noleggio a breve e lungo termine di biciclette e monopatt
 > ⚠️
 > Progetto personale a scopo dimostrativo. Pagamenti e dati sono fittizi.
 > Loghi e marchi citati appartengono ai rispettivi proprietari.
+> Sto attualmente lavorando allo sviluppo dell'Applicazione Mobile, il codice noleggio è dimostrativo.
 
 ## Screenshots progetto
 ![Homepage](docs/homepage.png)
