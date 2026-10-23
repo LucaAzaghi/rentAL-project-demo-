@@ -1,0 +1,473 @@
+html, body {
+    max-width: 100%;
+    overflow-x: clip;
+}
+/*!INIZIO PAGINA MILANO*/
+.milanBody{
+    background-image: url('/immagini/duomo.png') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    min-height: 200vh !important;
+    padding-top: 20px;
+}
+.navSettings .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.6);
+}
+.navSettings .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.vie {
+    width: 100% !important;
+    transform: none !important;
+    top: 8vh !important;
+    max-height: 220px !important;
+    overflow-y: auto !important;
+}
+.backMilan {
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 2px;
+    border-radius: 15px;
+}
+.backMilan2 {
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-right: 900px;
+    border-radius: 5px;
+}
+.box {
+    z-index: 10;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.milanMap {
+    height: 220px;
+}
+.scrittaMilano {
+    margin-left: 740px;
+    margin-top: -220px;
+    margin-right: 50px;
+    height: 215px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+/*!FINE PAGINA MILANO*/
+/*!INIZIO BICI*/
+.box1 {
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: solid 2px white;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6);
+    margin: 30px;
+}
+.acquista {
+    height: 30px;
+    width: 160px;
+    padding: 1px;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-top: 190px; 
+    position:absolute;
+    font-size: medium;
+    text-decoration: none;
+    color: #121212;
+}
+.biglietto {
+    width: 160px;
+    font-size: 10px;
+    height: 30;
+    position: absolute;
+    margin-top: 230px;
+}
+.biglietto2 {
+    width: 160px;
+    font-size: 10px;
+    height: 30;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 20px;
+}
+.acquista2 {
+    margin-left: 20px;
+}
+/*!FINE BICI*/
+/*!INIZIO PROFILO NAVBAR*/
+.profilo {
+    margin-top: 3px;
+    margin-right: 20px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    border-radius: 50%;
+    border: solid 0.5px white;
+}
+.navSettings {
+    height: 60px;
+    background-color: #121212;
+    border: solid 0.2px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.6);
+}
+.navSettings .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.6);
+}
+.navSettings .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.chiSiamo {
+    margin-left: 5px;
+}
+.logout {
+    font-size: 11px;
+    height: 25px;
+    width: 50px;
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: red;
+}
+.ticketListner {
+    display: none;
+    font-size: 0.6rem;
+    position: absolute;
+    margin-top: 0px;
+    display: none;
+    font-size: 0.6rem;
+    background-color: red;
+    border-radius: 50%;
+}
+.testoUtente {
+    font-size: 8px;
+    margin-left: -15px;
+    margin-top: -2px;
+    position: absolute;
+    color: white;
+}
+.prezziMenu {
+    background-color: #121212;
+    border: solid 1px white;
+    width: 100%;
+}
+.dropdown-item:hover {
+    background-color: #293133 !important;
+    color: white !important;
+}
+.cittaMenu {
+    background-color: #121212;
+    border: solid 1px white;
+    width: 100%;
+}
+.iconaTicket {
+    color: white;
+}
+.scrittaRental {
+    z-index: 2;
+    background-color: white;
+    color: #121212;
+    height: 24.7px;
+    padding-left: 2px;
+    padding-right: 22px;
+    padding-top: 1px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.logoNav {
+    z-index: 3;
+    position: absolute;
+    margin-left: 28px;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/*!FINE PROFILO NAVBAR*/
+.back {
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    margin-top: 20px;
+    z-index: 2;
+    margin-left: 800px;
+}
+
+/*!INIZIO ABBONAMENTI MENSILI*/
+.mese1 {
+    border-right: solid 0.5px white;
+}
+.mese2 {
+    border-right: solid 0.5px white;
+}
+/*!FINE ABBONAMENTI MENSILI*/
+/*!INIZIO PAGINA HOMEPAGE*/
+.logoHome{
+    height: 60vh;
+    margin-left: 136vh;
+    margin-top: -40vh;
+}
+.rent {
+    font-size: 14vh;
+    margin-top: 40vh;
+    margin-left: 30vh;
+}
+.rent2 {
+    font-size: 5vh;
+    margin-top: -17vh;
+    margin-left: 50vh;
+}
+.homepage {
+    z-index: 3 !important;
+}
+/*!FINE PAGINA HOMEPAGE*/
+/*!INIZIO PAGINA LOGIN*/
+.login {
+    min-height: 400px;
+    width: 400px;
+    background-color: #121212;
+    border: solid 2px white;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 15px;
+}
+.logo{
+    margin-left: 25px;
+    margin-top: -120px;
+    position: absolute;
+    height: 150px;
+}
+.rentalLogin {
+    margin-top: -60px;
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+.username {
+    margin-top: 50px;
+}
+.accedi {
+    margin-bottom: -70px;
+    font-size: 14px;
+}
+.qui2 {
+    color: cyan;
+}
+.sezioneSotto {
+    margin-top: 20px;
+    margin-bottom: -90px;
+}
+.sezioneMiddle {
+    margin-top: 30px;
+}
+.accediButton {
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 1px;
+    border: solid 1px white;
+    box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.6);
+}
+/*!FINE PAGINA LOGIN*/
+/*!INIZIO PAGINA REGISTER*/
+.register {
+    min-height: 410px;
+    width: 400px;
+    background-color: #121212;
+    border: solid 2px white;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 15px;
+}
+.sezioneMiddlereg {
+    margin-top: 100px;
+    width: 72%
+}
+.registratiButton {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -35px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 1px;
+    border: solid 1px white;
+    box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.6);
+}
+.qui2reg {
+    text-decoration: underline;
+    color: blue;
+}
+.rentalRegister {
+    margin-top: 30px;
+    margin-left: -40px;
+    margin-bottom: -100px;
+}
+.sezioneFinale {
+    margin-top: 60px;
+}
+.errore {
+    position: relative;
+    margin-top: -5px;
+}
+.accediUrl {
+    color: cyan;
+}
+/*!FINE PAGINA REGISTER*/
+/* ------------- */
+/* ------------- */
+/*!INIZIO SEZIONE MEDIAQUERY*/
+@media screen and (max-width: 991.98px) {
+    .navSettings > .container-fluid {
+        align-items: flex-start;
+        margin-top: 3px;
+    }
+    .navSettings .navbar-brand {
+        margin-top: 6px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .navSettings .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navSettings {
+        position: relative;
+        z-index: 1050;
+    }
+    .navSettings .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 60%;
+        min-width: 280px;
+        margin-top: 10px;
+        background-color: #121212;
+        border: solid 0.5px white;
+        border-radius: 6px;
+        padding: 10px 15px 15px;
+    }
+    .navSettings .nav-item {
+        position: relative;
+    }
+    .ticketListner {
+        top: 12px;
+        left: 22px;
+    }
+    .ticketLink {
+        position: relative;
+        display: inline-block;
+    }
+    .logoHome {
+        height: 150px;
+        margin-left: 61vh;
+        margin-top: -20vh;
+    }
+    .rent {
+        font-size: 2.3rem;
+        margin-left: 10vh;
+    }
+    .rent2 {
+        font-size: 1rem;
+        margin-top: -5vh;
+        margin-left: 19vh;
+    }
+    .chiSiamoSmall {
+        margin-left: 0px;
+    }
+    .mese1 {
+        border-bottom: solid 0.5px white;
+        border-right: none !important;
+        padding-bottom: 20px;
+    }
+    .mese2 {
+        border-bottom: solid 0.5px white;
+        border-right: none !important;
+        padding-bottom: 20px;
+    }
+    .mese3 {
+        padding-bottom: 80px;
+    }
+    .backMilan {
+        margin-left: 20vh;
+        margin-top: 10vh;
+        padding: 2vh;
+        width: 50vh;
+    }
+    .benvenutiSm {
+        font-size: 5vh;
+    }
+    .backMilan2 {
+        margin-right: 3vh;
+        width: 50vh;
+    }
+    .ricaricaSm {
+        font-size: 3vh;
+    }
+    .stazioneSm {
+        width: 40vh;
+        font-size: 2.5vh;
+        padding-left: 2vh !important;
+    }
+    .box {
+        height: 5vh;
+        margin-left: 55vh;
+        margin-right: 20px;
+    }
+    .milanMap {
+        height: 40vh;
+        width: 32vh;
+        border-radius: 5px;
+    }
+    .scrittaMilano {
+        font-size: 3vh;
+        margin-left: 5vh;
+        width: 80vh;
+        margin-top: 50vh;
+    }
+    .iconaTicket {
+        position: static;
+        text-align: center;
+        background: none;
+        border: none;
+    }
+    .profilo {
+        margin: 0 0 0 0.5rem;
+    }
+    .testoUtente {
+        background-color: #121212;
+        position: absolute;
+        margin-left: 2px;
+        margin-top: 3px;
+        padding-bottom: 5px;
+    }
+    .logout {
+        margin-top: 20px;
+    }
+    .backProfilo {
+        margin-left: -5px;
+    }
+    .prezziMenu, .cittaMenu {
+        width: 85%;
+    }
+}
