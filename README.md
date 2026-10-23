@@ -10,6 +10,11 @@ Demo di un servizio di noleggio a breve e lungo termine di biciclette e monopatt
 
 ## Screenshots progetto
 ![Homepage](docs/homepage.png)
+![Milano](docs/milano.png)
+![Abbonamenti giornalieri](docs/abbonamenti_giornalieri.png)
+![Abbonamento settimanale/mensile](docs/abbonamento_settimanale_mensile.png)
+![Checkout](docs/checkout.png)
+![Conferma d'acquisto](docs/conferma.png)
 
 ## Tecnologie usate
 - Laravel (PHP)
